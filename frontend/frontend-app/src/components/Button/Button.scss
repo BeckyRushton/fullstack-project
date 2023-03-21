@@ -1,0 +1,21 @@
+@import "../../styles/variables.scss";
+
+.button-style {
+  cursor: pointer;
+  border: 3px solid black;
+  border-radius: 10px;
+  width: fit-content;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.3rem;
+  margin: 20px;
+  background-color: pink;
+  color: white;
+  box-shadow: 2px 2px 2px blue;
+}
+.button-style:hover {
+  background-color: blue;
+  border: 3px solid darkblue;
+  box-shadow: 2px 2px 2px pink;
+  transition: 400ms;
+}
