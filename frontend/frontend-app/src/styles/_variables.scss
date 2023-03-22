@@ -1,3 +1,9 @@
 // Colour palette
+$background-colour: white;
+$accent-colour: teal;
+$second-accent-colour: pink;
 
 // Typography
+@import url("https://fonts.googleapis.com/css2?family=Michroma&family=Roboto:ital,wght@0,400;1,100&display=swap");
+$main-font: "Roboto", Helvetica, sans-serif;
+$accent-font: "Michroma", Courier, monospace;
