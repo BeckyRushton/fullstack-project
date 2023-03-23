@@ -11,8 +11,12 @@
       "classic",
       "fantasy"
     ],
-    "image": null,
-    "quotes": null,
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1439554741i/26098210.jpg",
+    "quotes": [
+      "So comes snow after fire, and even dragons have their endings.",
+      "Where there's life there's hope.",
+      "I have found that it is the small everyday deed of ordinary folks that keep the darkness at bay. Small acts of kindness and love."
+    ],
     "blurb": "In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to eat: it was a hobbit-hole, and that means comfort. Written for J.R.R. Tolkien’s own children, *The Hobbit* met with instant critical acclaim when it was first published in 1937. Now recognized as a timeless classic, this introduction to the hobbit Bilbo Baggins, the wizard Gandalf, Gollum, and the spectacular world of Middle-earth recounts of the adventures of a reluctant hero, a powerful and dangerous ring, and the cruel dragon Smaug the Magnificent."
   },
   {
@@ -26,8 +30,12 @@
       "fiction",
       "modern"
     ],
-    "image": null,
-    "quotes": null,
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1621677878i/34728079.jpg",
+    "quotes": [
+      "If you have to consider what’s going to happen after you die, life becomes doubly troublesome.",
+      "As we count up the memories from one journey, we head off on another. Remembering those who went ahead. Remembering those who will follow after. And someday, we will meet all those people again, out beyond the horizon.",
+      "No other animal in the world would try to defy the laws of nature, but humans are a very peculiar species."
+    ],
     "blurb": "We take journeys to explore exotic new places and to return to the comforts of home, to visit old acquaintances and to make new friends. But the most important journey is the one that shows us how to follow our hearts...An instant international bestseller and indie bestseller, *The Travelling Cat Chronicles* has charmed readers around the world. With simple yet descriptive prose, this novel gives voice to Nana the cat and his owner, Satoru, as they take to the road on a journey with no other purpose than to visit three of Satoru's longtime friends. Or so Nana is led to believe... With his crooked tail--a sign of good fortune--and adventurous spirit, Nana is the perfect companion for the man who took him in as a stray. And as they travel in a silver van across Japan, with its ever-changing scenery and seasons, they will learn the true meaning of courage and gratitude, of loyalty and love."
   },
   {
@@ -41,8 +49,12 @@
       "fiction",
       "historical"
     ],
-    "image": null,
-    "quotes": null,
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1541355637i/42628604.jpg",
+    "quotes": [
+      "Like most misery, it started with apparent happiness.",
+      "Humans, if nothing else, have the good sense to die.",
+      "Somewhere, far down, there was an itch in his heart, but he made it a point not to scratch it. He was afraid of what might come leaking out."
+    ],
     "blurb": "It is 1939. Nazi Germany. The country is holding its breath. Death has never been busier, and will be busier still. By her brother's graveside, Liesel's life is changed when she picks up a single object, partially hidden in the snow. It is The Gravedigger's Handbook, left behind there by accident, and it is her first act of book thievery. So begins a love affair with books and words, as Liesel, with the help of her accordian-playing foster father, learns to read. Soon she is stealing books from Nazi book-burnings, the mayor's wife's library, wherever there are books to be found. But these are dangerous times. When Liesel's foster family hides a Jew in their basement, Liesel's world is both opened up, and closed down. In superbly crafted writing that burns with intensity, award-winning author Markus Zusak has given us one of the most enduring stories of our time."
   },
   {
@@ -55,10 +67,15 @@
     "genre": [
       "fiction",
       "historical",
-      "classic"
+      "classic",
+      "feminism"
     ],
-    "image": null,
-    "quotes": null,
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1626565367i/34649455.jpg",
+    "quotes": [
+      "I am not afraid of storms, for I am learning how to sail my ship.",
+      "Watch and pray, dear, never get tired of trying, and never think it is impossible to conquer your fault.",
+      "Women, they have minds, and they have souls, as well as just hearts. And they’ve got ambition, and they’ve got talent, as well as just beauty. I’m so sick of people saying that love is all a woman is fit for."
+    ],
     "blurb": "Rich or poor, we will keep together and be happy in one another. Christmas won't be the same this year for Meg, Jo, Beth, and Amy, as their father is away fighting in the Civil War and the family has fallen on hard times. But though they may be poor, life for the four March sisters is rich with color, as they play games, put on wild theatricals, make new friends, argue, grapple with their vices, learn from their mistakes, nurse each other through sickness and disappointments, and get into all sorts of trouble."
   },
   {
@@ -66,15 +83,15 @@
     "title": "Piranesi",
     "author": "Susanna Clark",
     "published": "15/09/2020",
-    "edition": "Bloomsbury Publishing, 2021, paperback",
-    "pages": 272,
+    "edition": "Bloomsbury, 2020, hardback",
+    "pages": 245,
     "genre": [
       "fiction",
       "fantasy",
       "mystery"
     ],
-    "image": null,
-    "quotes": null,
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1609095173i/50202953.jpg",
+    "quotes": ["The Beauty of the House is immeasurable; its Kindness infinite.", "Perhaps even people you like and admire immensely can make you see the World in ways you would rather not.", "I can see it is in the nature of men to prefer one thing to another, to find one thing more meaningful than another."],
     "blurb": "Piranesi’s house is no ordinary building: its rooms are infinite, its corridors endless, its walls are lined with thousands upon thousands of statues, each one different from all the others. Within the labyrinth of halls an ocean is imprisoned; waves thunder up staircases, rooms are flooded in an instant. But Piranesi is not afraid; he understands the tides as he understands the pattern of the labyrinth itself. He lives to explore the house. There is one other person in the house—a man called The Other, who visits Piranesi twice a week and asks for help with research into A Great and Secret Knowledge. But as Piranesi explores, evidence emerges of another person, and a terrible truth begins to unravel, revealing a world beyond the one Piranesi has always known."
   },
   {
@@ -89,8 +106,8 @@
       "historical",
       "mystery"
     ],
-    "image": null,
-    "quotes": null,
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1628791882i/1232.jpg",
+    "quotes": ["People tend to complicate their own lives, as if living weren't already complicated enough.", "Books are mirrors: you only see in them what you already have inside you.", "Fools talk, cowards are silent, wise men listen."],
     "blurb": "Barcelona, 1945: A city slowly heals from its war wounds, and Daniel, an antiquarian book dealer's son who mourns the loss of his mother, finds solace in a mysterious book entitled The Shadow of the Wind, by one Julian Carax. But when he sets out to find the author's other works, he makes a shocking discovery: someone has been systematically destroying every copy of every book Carax has written. In fact, Daniel may have the last of Carax's books in existence. Soon Daniel's seemingly innocent quest opens a door into one of Barcelona's darkest secrets--an epic story of murder, madness, and doomed love."
   },
   {
@@ -100,9 +117,9 @@
     "published": "28/08/2018",
     "edition": "Faber & Faber, 2019, paperback",
     "pages": 266,
-    "genre": null,
-    "image": null,
-    "quotes": null,
+    "genre": ["non-fiction", "contemporary", "romance"],
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1556822947i/41086877.jpg",
+    "quotes": ["Marianne had the sense that her real life was happening somewhere very far away, happening without her, and she didn't know if she would ever find out where it was or become part of it.", "Life offers up these moments of joy despite everything.", "It feels powerful to him to put an experience down in words, like he's trapping it in a jar and it can never fully leave him."],
     "blurb": "Connell and Marianne grow up in the same small town in the west of Ireland, but the similarities end there. In school, Connell is popular and well-liked, while Marianne is a loner. But when the two strike up a conversation – awkward but electrifying – something life-changing begins. Normal People is a story of mutual fascination, friendship and love. It takes us from that first conversation to the years beyond, in the company of two people who try to stay apart but find they can’t."
   },
   {
@@ -117,8 +134,8 @@
       "essay",
       "feminism"
     ],
-    "image": null,
-    "quotes": null,
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1646821613i/57145833.jpg",
+    "quotes": ["I so desperately craved men's validation that I accepted it even when it came wrapped in disrespect.", "I want to calculate my beauty to protect myself, to understand exactly how much power and lovability I have.", "Feminism is all about choice, I reminded the world, so stop trying to control me."],
     "blurb": "A deeply honest investigation of what it means to be a woman and a commodity from Emily Ratajkowski, the archetypal, multi-hyphenate celebrity of our time. My Body is a profoundly personal exploration of feminism, sexuality, and power, of men's treatment of women and women's rationalizations for accepting that treatment. These essays chronicle moments from Ratajkowski’s life while investigating the culture’s fetishization of girls and female beauty, its obsession with and contempt for women’s sexuality, the perverse dynamics of the fashion and film industries, and the gray area between consent and abuse. Nuanced, fierce, and incisive, My Body marks the debut of a writer brimming with courage and intelligence."
   },
   {
@@ -133,8 +150,8 @@
       "historical",
       "true-crime"
     ],
-    "image": null,
-    "quotes": null,
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1550146801i/40554109.jpg",
+    "quotes": ["The victims of Jack the Ripper were never 'just prostitutes'; they were daughters, wives, mothers, sisters, and lovers. They were women. They were human beings, and surely that in itself is enough.", "At its very core, the story of Jack the Ripper is a narrative of a killer’s deep, abiding hatred of women, and our cultural obsession with the mythology only serves to normalize its particular brand of misogyny.", "When a woman steps out of line and contravenes the feminine norm, whether on social media or on the Victorian street, there is a tacit understanding that someone must put her back in her place.", "“The only means by which she could then sustain herself would be to resort to the profession she had been accused of practising."],
     "blurb": "Five devastating human stories and a dark and moving portrait of Victorian London - the untold lives of the women killed by Jack the Ripper. Polly, Annie, Elizabeth, Catherine and Mary-Jane are famous for the same thing, though they never met. They came from Fleet Street, Knightsbridge, Wolverhampton, Sweden and Wales. They wrote ballads, ran coffee houses, lived on country estates, they breathed ink-dust from printing presses and escaped people-traffickers. What they had in common was the year of their murders: 1888. The person responsible was never identified, but the character created by the press to fill that gap has become far more famous than any of these five women. For more than a century, newspapers have been keen to tell us that ‘the Ripper’ preyed on prostitutes. Not only is this untrue, as historian Hallie Rubenhold has discovered, it has prevented the real stories of these fascinating women from being told. Now, in this devastating narrative of five lives, Rubenhold finally sets the record straight, revealing a world not just of Dickens and Queen Victoria, but of poverty, homelessness and rampant misogyny. They died because they were in the wrong place at the wrong time – but their greatest misfortune was to be born a woman."
   },
   {
@@ -148,10 +165,9 @@
       "fiction",
       "historical"
     ],
-    "image": null,
-    "quotes": null,
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1628532099i/37435.jpg",
+    "quotes": ["Someone who thinks death is the scariest thing doesn't know a thing about life.", "Stories have to be told or they die, and when they die, we can't remember who we are or why we're here.", "After you get stung, you can't get unstung, no matter how much you whine about it."],
     "blurb": "Set in South Carolina in 1964, The Secret Life of Bees tells the story of Lily Owens, whose life has been shaped around the blurred memory of the afternoon her mother was killed. When Lily's fierce-hearted black stand-in mother, Rosaleen, insults three of the deepest racists in town, Lily decides to spring them both free. They escape to Tiburon, South Carolina--a town that holds the secret to her mother's past. Taken in by an eccentric trio of black beekeeping sisters, Lily is introduced to their mesmerizing world of bees and honey, and the Black Madonna. This is a remarkable novel about divine female power, a story women will share and pass on to their daughters for years to come."
   }
-
 ]
 
