@@ -2,16 +2,15 @@ import React from "react";
 import PageHeader from "../../components/PageHeader/PageHeader";
 import HomepageContainer from "../../containers/HomepageContainer/HomepageContainer";
 import NavContainer from "../../containers/NavContainer/NavContainer";
-import bookData from "../../data/bookData";
 import "./Home.scss";
 
-const Home = ({ bookData }) => {
+const Home = () => {
   return (
     <div>
       HOMEPAGE
       <PageHeader />
       <NavContainer />
-      <HomepageContainer bookData={bookData} />
+      <HomepageContainer />
     </div>
   );
 };

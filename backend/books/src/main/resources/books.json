@@ -1,0 +1,157 @@
+[
+  {
+    "id": 1,
+    "title": "The Hobbit",
+    "author": "J. R. R. Tolkien",
+    "published": "21/09/1937",
+    "edition": "Harper Collins, 2011, paperback",
+    "pages": 305,
+    "genre": [
+      "fiction",
+      "classic",
+      "fantasy"
+    ],
+    "image": null,
+    "quotes": null,
+    "blurb": "In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to eat: it was a hobbit-hole, and that means comfort. Written for J.R.R. Tolkien’s own children, *The Hobbit* met with instant critical acclaim when it was first published in 1937. Now recognized as a timeless classic, this introduction to the hobbit Bilbo Baggins, the wizard Gandalf, Gollum, and the spectacular world of Middle-earth recounts of the adventures of a reluctant hero, a powerful and dangerous ring, and the cruel dragon Smaug the Magnificent."
+  },
+  {
+    "id": 2,
+    "title": "The Travelling Cat Chronicles",
+    "author": "Hiro Arikawa",
+    "published": "01/11/2012",
+    "edition": "Doubleday, 2017, paperback",
+    "pages": 256,
+    "genre": [
+      "fiction",
+      "modern"
+    ],
+    "image": null,
+    "quotes": null,
+    "blurb": "We take journeys to explore exotic new places and to return to the comforts of home, to visit old acquaintances and to make new friends. But the most important journey is the one that shows us how to follow our hearts...An instant international bestseller and indie bestseller, *The Travelling Cat Chronicles* has charmed readers around the world. With simple yet descriptive prose, this novel gives voice to Nana the cat and his owner, Satoru, as they take to the road on a journey with no other purpose than to visit three of Satoru's longtime friends. Or so Nana is led to believe... With his crooked tail--a sign of good fortune--and adventurous spirit, Nana is the perfect companion for the man who took him in as a stray. And as they travel in a silver van across Japan, with its ever-changing scenery and seasons, they will learn the true meaning of courage and gratitude, of loyalty and love."
+  },
+  {
+    "id": 3,
+    "title": "The Book Theif",
+    "author": "Markus Zusak",
+    "published": "01/03/2006",
+    "edition": "Penguin, 2018, paperback",
+    "pages": 560,
+    "genre": [
+      "fiction",
+      "historical"
+    ],
+    "image": null,
+    "quotes": null,
+    "blurb": "It is 1939. Nazi Germany. The country is holding its breath. Death has never been busier, and will be busier still. By her brother's graveside, Liesel's life is changed when she picks up a single object, partially hidden in the snow. It is The Gravedigger's Handbook, left behind there by accident, and it is her first act of book thievery. So begins a love affair with books and words, as Liesel, with the help of her accordian-playing foster father, learns to read. Soon she is stealing books from Nazi book-burnings, the mayor's wife's library, wherever there are books to be found. But these are dangerous times. When Liesel's foster family hides a Jew in their basement, Liesel's world is both opened up, and closed down. In superbly crafted writing that burns with intensity, award-winning author Markus Zusak has given us one of the most enduring stories of our time."
+  },
+  {
+    "id": 4,
+    "title": "Little Women",
+    "author": "Louisa May Alcott",
+    "published": "01/01/1868",
+    "edition": "Vintage Classics, 2017, paperback",
+    "pages": 416,
+    "genre": [
+      "fiction",
+      "historical",
+      "classic"
+    ],
+    "image": null,
+    "quotes": null,
+    "blurb": "Rich or poor, we will keep together and be happy in one another. Christmas won't be the same this year for Meg, Jo, Beth, and Amy, as their father is away fighting in the Civil War and the family has fallen on hard times. But though they may be poor, life for the four March sisters is rich with color, as they play games, put on wild theatricals, make new friends, argue, grapple with their vices, learn from their mistakes, nurse each other through sickness and disappointments, and get into all sorts of trouble."
+  },
+  {
+    "id": 5,
+    "title": "Piranesi",
+    "author": "Susanna Clark",
+    "published": "15/09/2020",
+    "edition": "Bloomsbury Publishing, 2021, paperback",
+    "pages": 272,
+    "genre": [
+      "fiction",
+      "fantasy",
+      "mystery"
+    ],
+    "image": null,
+    "quotes": null,
+    "blurb": "Piranesi’s house is no ordinary building: its rooms are infinite, its corridors endless, its walls are lined with thousands upon thousands of statues, each one different from all the others. Within the labyrinth of halls an ocean is imprisoned; waves thunder up staircases, rooms are flooded in an instant. But Piranesi is not afraid; he understands the tides as he understands the pattern of the labyrinth itself. He lives to explore the house. There is one other person in the house—a man called The Other, who visits Piranesi twice a week and asks for help with research into A Great and Secret Knowledge. But as Piranesi explores, evidence emerges of another person, and a terrible truth begins to unravel, revealing a world beyond the one Piranesi has always known."
+  },
+  {
+    "id": 6,
+    "title": "The Shadow of the Wind",
+    "author": "Carlos Ruiz Zafón",
+    "published": "01/01/2005",
+    "edition": "Penguin Books, 2005, paperback",
+    "pages": 512,
+    "genre": [
+      "fiction",
+      "historical",
+      "mystery"
+    ],
+    "image": null,
+    "quotes": null,
+    "blurb": "Barcelona, 1945: A city slowly heals from its war wounds, and Daniel, an antiquarian book dealer's son who mourns the loss of his mother, finds solace in a mysterious book entitled The Shadow of the Wind, by one Julian Carax. But when he sets out to find the author's other works, he makes a shocking discovery: someone has been systematically destroying every copy of every book Carax has written. In fact, Daniel may have the last of Carax's books in existence. Soon Daniel's seemingly innocent quest opens a door into one of Barcelona's darkest secrets--an epic story of murder, madness, and doomed love."
+  },
+  {
+    "id": 7,
+    "title": "Normal People",
+    "author": "Sally Rooney",
+    "published": "28/08/2018",
+    "edition": "Faber & Faber, 2019, paperback",
+    "pages": 266,
+    "genre": null,
+    "image": null,
+    "quotes": null,
+    "blurb": "Connell and Marianne grow up in the same small town in the west of Ireland, but the similarities end there. In school, Connell is popular and well-liked, while Marianne is a loner. But when the two strike up a conversation – awkward but electrifying – something life-changing begins. Normal People is a story of mutual fascination, friendship and love. It takes us from that first conversation to the years beyond, in the company of two people who try to stay apart but find they can’t."
+  },
+  {
+    "id": 8,
+    "title": "My Body",
+    "author": "Emily Ratajkowski",
+    "published": "09/11/2021",
+    "edition": "Metropolitan Books, 2021, hardback",
+    "pages": 239,
+    "genre": [
+      "non-fiction",
+      "essay",
+      "feminism"
+    ],
+    "image": null,
+    "quotes": null,
+    "blurb": "A deeply honest investigation of what it means to be a woman and a commodity from Emily Ratajkowski, the archetypal, multi-hyphenate celebrity of our time. My Body is a profoundly personal exploration of feminism, sexuality, and power, of men's treatment of women and women's rationalizations for accepting that treatment. These essays chronicle moments from Ratajkowski’s life while investigating the culture’s fetishization of girls and female beauty, its obsession with and contempt for women’s sexuality, the perverse dynamics of the fashion and film industries, and the gray area between consent and abuse. Nuanced, fierce, and incisive, My Body marks the debut of a writer brimming with courage and intelligence."
+  },
+  {
+    "id": 9,
+    "title": "The Five: The Untold Lives of the Women Killed by Jack the Ripper",
+    "author": "Hallie Rubenhold",
+    "published": "01/02/2019",
+    "edition": "Doubleday, 2019, hardback",
+    "pages": 432,
+    "genre": [
+      "non-fiction",
+      "historical",
+      "true-crime"
+    ],
+    "image": null,
+    "quotes": null,
+    "blurb": "Five devastating human stories and a dark and moving portrait of Victorian London - the untold lives of the women killed by Jack the Ripper. Polly, Annie, Elizabeth, Catherine and Mary-Jane are famous for the same thing, though they never met. They came from Fleet Street, Knightsbridge, Wolverhampton, Sweden and Wales. They wrote ballads, ran coffee houses, lived on country estates, they breathed ink-dust from printing presses and escaped people-traffickers. What they had in common was the year of their murders: 1888. The person responsible was never identified, but the character created by the press to fill that gap has become far more famous than any of these five women. For more than a century, newspapers have been keen to tell us that ‘the Ripper’ preyed on prostitutes. Not only is this untrue, as historian Hallie Rubenhold has discovered, it has prevented the real stories of these fascinating women from being told. Now, in this devastating narrative of five lives, Rubenhold finally sets the record straight, revealing a world not just of Dickens and Queen Victoria, but of poverty, homelessness and rampant misogyny. They died because they were in the wrong place at the wrong time – but their greatest misfortune was to be born a woman."
+  },
+  {
+    "id": 10,
+    "title": "The Secret Life of Bees",
+    "author": "Sue Monk Kidd",
+    "published": "08/11/2001",
+    "edition": "Penguin Books, 2003, paperback",
+    "pages": 302,
+    "genre": [
+      "fiction",
+      "historical"
+    ],
+    "image": null,
+    "quotes": null,
+    "blurb": "Set in South Carolina in 1964, The Secret Life of Bees tells the story of Lily Owens, whose life has been shaped around the blurred memory of the afternoon her mother was killed. When Lily's fierce-hearted black stand-in mother, Rosaleen, insults three of the deepest racists in town, Lily decides to spring them both free. They escape to Tiburon, South Carolina--a town that holds the secret to her mother's past. Taken in by an eccentric trio of black beekeeping sisters, Lily is introduced to their mesmerizing world of bees and honey, and the Black Madonna. This is a remarkable novel about divine female power, a story women will share and pass on to their daughters for years to come."
+  }
+
+]
+
