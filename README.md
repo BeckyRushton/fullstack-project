@@ -1,4 +1,6 @@
-# fullstack-project
+# Fullstack Project - Book API
+
+The goal of this project was to create a full-stack web application using Java, Spring, MySQL and React. In order to execute this, I had to programme both front and back end that is able to CRUD a local database.
 
 Here are my mock designs I created on Excalidraw to reference when designing the front end of the application: 
 
