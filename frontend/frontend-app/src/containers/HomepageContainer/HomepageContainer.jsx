@@ -2,13 +2,12 @@ import React from "react";
 import BookCard from "../../components/BookCard/BookCard";
 import "./HomepageContainer.scss";
 
-const HomepageContainer = () => {
-  return (
-    <div className="homepage">
-      HomepageContainer
-      <BookCard />
-    </div>
-  );
+const HomepageContainer = ({ bookData }) => {
+  const populateBooks = bookData.map((book) => {
+    return <BookCard book={book} />;
+  });
+
+  return <div className="homepage">{populateBooks}</div>;
 };
 
 export default HomepageContainer;
