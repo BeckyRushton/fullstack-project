@@ -2,11 +2,11 @@ import React from "react";
 import FilterSection from "../../components/FilterSection/FilterSection";
 import "./NavContainer.scss";
 
-const NavContainer = () => {
+const NavContainer = ({ bookData, setBookData }) => {
   return (
     <div className="nav">
       NavContainer
-      <FilterSection />
+      <FilterSection bookData={bookData} setBookData={setBookData} />
     </div>
   );
 };

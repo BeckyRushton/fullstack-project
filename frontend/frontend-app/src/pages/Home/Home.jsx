@@ -4,12 +4,12 @@ import HomepageContainer from "../../containers/HomepageContainer/HomepageContai
 import NavContainer from "../../containers/NavContainer/NavContainer";
 import "./Home.scss";
 
-const Home = ({ bookData }) => {
+const Home = ({ bookData, setBookData }) => {
   return (
     <div>
       HOMEPAGE
-      <PageHeader />
-      <NavContainer />
+      <PageHeader bookData={bookData} />
+      <NavContainer bookData={bookData} setBookData={setBookData} />
       <HomepageContainer bookData={bookData} />
     </div>
   );

@@ -23,7 +23,10 @@ function App() {
     <Router>
       <div className="App">
         <Routes>
-          <Route path="/" element={<Home bookData={bookData} />}></Route>
+          <Route
+            path="/"
+            element={<Home bookData={bookData} setBookData={setBookData} />}
+          ></Route>
           <Route path="/book" element={<Book />}></Route>
           <Route path="/addbook" element={<AddBook />}></Route>
         </Routes>
