@@ -1,3 +1,6 @@
+@import "../../styles/variables";
 .nav {
-  border: 2px solid red;
+  background-color: $accent-colour;
+  color: $second-accent-colour;
+  width: 20%;
 }

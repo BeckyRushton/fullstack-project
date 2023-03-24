@@ -6,11 +6,12 @@ import "./Home.scss";
 
 const Home = ({ bookData, setBookData }) => {
   return (
-    <div>
-      HOMEPAGE
+    <div className="homepage">
       <PageHeader bookData={bookData} />
-      <NavContainer bookData={bookData} setBookData={setBookData} />
-      <HomepageContainer bookData={bookData} />
+      <div className="homepage-body">
+        <NavContainer bookData={bookData} setBookData={setBookData} />
+        <HomepageContainer bookData={bookData} />
+      </div>
     </div>
   );
 };
