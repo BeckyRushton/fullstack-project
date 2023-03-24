@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./FilterSection.scss";
 
 const FilterSection = ({ bookData, setBookData }) => {
@@ -9,9 +9,6 @@ const FilterSection = ({ bookData, setBookData }) => {
     }
   });
 
-  // useEffect(() => {
-  //   setBookData(filteredBookData);
-  // }, []);
   return (
     <div className="filter-genre">
       Filter by:
