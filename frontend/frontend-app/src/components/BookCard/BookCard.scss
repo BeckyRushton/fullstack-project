@@ -3,15 +3,39 @@
   border: 1px solid $dark-brown;
   border-radius: 10px;
   box-shadow: 2px 2px 5px $dark-brown;
-
-  height: auto;
-  width: 400px;
+  height: 600px;
+  width: 350px;
   font-family: $main-font;
+  font-weight: bold;
   background-color: $colour-book;
   color: $dark-green;
   padding: 20px;
   margin: 10px;
+  overflow: hidden;
 }
-.book-image {
-  width: 50%;
+.book-stats {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  &__top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &--image {
+      width: 60%;
+      box-shadow: 2px 2px 5px $dark-green;
+    }
+  }
+  &__bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    &--blurb {
+      overflow: hidden;
+    }
+    &--quotes {
+      display: none;
+    }
+  }
 }

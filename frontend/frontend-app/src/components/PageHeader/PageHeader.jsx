@@ -3,7 +3,7 @@ import "./PageHeader.scss";
 import Search from "../Search/Search";
 import Menu from "../Menu/Menu";
 
-const PageHeader = () => {
+const PageHeader = ({ handleSearch }) => {
   return (
     <div className="header">
       <div className="header__title">
@@ -11,7 +11,7 @@ const PageHeader = () => {
       </div>
       <div className="header__options">
         <Menu />
-        <Search />
+        <Search handleSearch={handleSearch} />
       </div>
     </div>
   );

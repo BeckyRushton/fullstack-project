@@ -15,15 +15,25 @@ const BookCard = ({ book }) => {
   return (
     <div className="book-container">
       <div className="book-stats">
-        <img className="book-image" src={book.image} alt="book-cover" />
-        <p>Title: {book.title}</p>
-        <p>Author: {book.author}</p>
-        <p>Published: {book.published}</p>
-        <p>Edition: {book.edition}</p>
-        <p>Pages: {book.pages}</p>
-        <p>Genre: {bookGenres}</p>
-        <p>Blurb: {book.blurb}</p>
-        <div>Quotes: {bookQuotes}</div>
+        <div className="book-stats__top">
+          <img
+            className="book-stats__top--image"
+            src={book.image}
+            alt="book-cover"
+          />
+        </div>
+        <div className="book-stats__bottom">
+          <p className="book-stats__bottom--title">Title: {book.title}</p>
+          <p className="book-stats__bottom--author">Author: {book.author}</p>
+          <p className="book-stats__bottom--published">
+            Published: {book.published}
+          </p>
+          <p className="book-stats__bottom--edition">Edition: {book.edition}</p>
+          <p className="book-stats__bottom--pages">Pages: {book.pages}</p>
+          <p className="book-stats__bottom--genre">Genre: {bookGenres}</p>
+          <p className="book-stats__bottom--blurb">Blurb: {book.blurb}</p>
+          <div className="book-stats__bottom--quotes">Quotes: {bookQuotes}</div>
+        </div>
       </div>
     </div>
   );

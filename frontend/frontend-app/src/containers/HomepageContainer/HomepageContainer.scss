@@ -1,7 +1,8 @@
 @import "../../styles/variables";
 .homepage {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   background-color: $light-brown;
+  width: 100%;
 }

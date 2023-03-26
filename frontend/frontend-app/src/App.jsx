@@ -9,16 +9,56 @@ import AllBooks from "./pages/AllBooks/AllBooks";
 function App() {
   const [showBooks, setShowBooks] = useState(false);
   const [bookData, setBookData] = useState([]);
+  const [searchTerm, setSearchTerm] = useState("");
+  const [searchGenres, setSearchGenres] = useState([]);
+
   const fetchBooks = async () => {
     const res = await fetch("http://localhost:8080/books");
-    const bookDB = await res.json();
-    console.log(bookDB);
+    let bookDB = await res.json();
+
+    bookDB = bookDB.filter((book) => {
+      if (
+        book.title.toLowerCase().includes(searchTerm) ||
+        book.author.toLowerCase().includes(searchTerm)
+      ) {
+        if (searchGenres.length == 0) {
+          return true;
+        }
+
+        for (const genre of searchGenres) {
+          if (book.genre.includes(genre)) {
+            return true;
+          }
+        }
+      }
+    });
+
     setBookData(bookDB);
     setShowBooks(true);
   };
+
   useEffect(() => {
     fetchBooks();
-  }, []);
+  }, [searchTerm, searchGenres]);
+
+  const handleSearchGenres = (event) => {
+    const genre = event.target.getAttribute("genre");
+    const checked = event.target.checked;
+    if (checked) {
+      setSearchGenres([genre, ...searchGenres]);
+    } else {
+      let newSearchGenres = searchGenres.filter((checkedGenre) => {
+        if (checkedGenre !== genre) {
+          return true;
+        }
+      });
+      setSearchGenres([...newSearchGenres]);
+    }
+  };
+
+  const handleSearch = (event) => {
+    setSearchTerm(event.target.value.toLowerCase());
+  };
 
   return (
     <Router>
@@ -26,11 +66,27 @@ function App() {
         <Routes>
           <Route
             path="/"
-            element={<Home bookData={bookData} setBookData={setBookData} />}
+            element={
+              <Home
+                bookData={bookData}
+                setBookData={setBookData}
+                handleSearch={handleSearch}
+                handleSearchGenres={handleSearchGenres}
+              />
+            }
           ></Route>
-          <Route path="/book" element={<Book />}></Route>
+          <Route path="/book" element={<Book bookData={bookData} />}></Route>
           <Route path="/addbook" element={<AddBook />}></Route>
-          <Route path="/allbooks" element={<AllBooks />}></Route>
+          <Route
+            path="/allbooks"
+            element={
+              <AllBooks
+                bookData={bookData}
+                setBookData={setBookData}
+                handleSearch={handleSearch}
+              />
+            }
+          ></Route>
         </Routes>
       </div>
     </Router>
