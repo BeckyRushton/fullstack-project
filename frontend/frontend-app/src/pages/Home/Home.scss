@@ -6,4 +6,12 @@
 .homepage-body {
   display: flex;
   flex-direction: row;
+  width: 100%;
+
+  &__nav {
+    width: 20%;
+  }
+  &__home {
+    width: 80%;
+  }
 }

@@ -9,12 +9,17 @@ const Home = ({ bookData, setBookData, handleSearch, handleSearchGenres }) => {
     <div className="homepage">
       <PageHeader bookData={bookData} handleSearch={handleSearch} />
       <div className="homepage-body">
-        <NavContainer
-          bookData={bookData}
-          setBookData={setBookData}
-          handleSearchGenres={handleSearchGenres}
-        />
-        <HomepageContainer bookData={bookData} />
+        <div className="homepage-body__nav">
+          {" "}
+          <NavContainer
+            bookData={bookData}
+            setBookData={setBookData}
+            handleSearchGenres={handleSearchGenres}
+          />
+        </div>
+        <div className="homepage-body__home">
+          <HomepageContainer bookData={bookData} />
+        </div>
       </div>
     </div>
   );
