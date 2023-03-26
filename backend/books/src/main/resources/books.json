@@ -417,6 +417,351 @@
     "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1608723131i/53916142.jpg",
     "blurb": "I am 94. I've had an extraordinary life. It's only now that I appreciate how extraordinary. As a young man, I felt I was out there in the wild, experiencing the untouched natural world - but it was an illusion. The tragedy of our time has been happening all around us, barely noticeable from day to day - the loss of our planet's wild places, its biodiversity. I have been witness to this decline. A Life on Our Planet is my witness statement, and my vision for the future. It is the story of how we came to make this, our greatest mistake - and how, if we act now, we can yet put it right. We have one final chance to create the perfect home for ourselves and restore the wonderful world we inherited. All we need is the will to do so.",
     "quotes": ["We moved from being a part of nature to being apart from nature.", "We have come as far as we have because we are the cleverest creatures to have ever lived on Earth. But if we are to continue to exist, we will require more than intelligence. We will require wisdom.", "We often talk of saving the planet, but the truth is that we must do these things to save ourselves. With or without us, the wild will return."]
-  }
+  },
+    {
+      "id": 28,
+      "title": "Animal Farm",
+      "author": "George Orwell",
+      "published": "17/08/1945",
+      "edition": "Signet Classics, 1996, paperback",
+      "pages": 128,
+      "genre": [
+        "fiction",
+        "classic", "fantasy"
+      ],
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1325861570i/170448.jpg",
+      "blurb": "A farm is taken over by its overworked, mistreated animals. With flaming idealism and stirring slogans, they set out to create a paradise of progress, justice, and equality. Thus the stage is set for one of the most telling satiric fables ever penned –a razor-edged fairy tale for grown-ups that records the evolution from revolution against tyranny to a totalitarianism just as terrible.\nWhen Animal Farm was first published, Stalinist Russia was seen as its target. Today it is devastatingly clear that wherever and whenever freedom is attacked, under whatever banner, the cutting clarity and savage comedy of George Orwell’s masterpiece have a meaning and message still ferociously fresh.",
+      "quotes": ["All animals are equal, but some animals are more equal than others.", "Man is the only creature that consumes without producing. He does not give milk, he does not lay eggs, he is too weak to pull the plough, he cannot run fast enough to catch rabbits. Yet he is lord of all the animals.", "Four legs good, two legs bad."]
+    },
+    {
+      "id": 29,
+      "title": "Mexican Gothic",
+      "author": "Silvia Moreno-Garcia",
+      "published": "30/06/2020",
+      "edition": "Del Rey, 2020, hardback",
+      "pages": 301,
+      "genre": [
+        "fiction",
+        "fantasy", "mystery", "modern"
+      ],
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1607462569i/53152636.jpg",
+      "blurb": "When glamorous socialite Noemí Taboada receives a frantic letter from her newlywed cousin begging to be rescued from a mysterious doom, it's clear something is desperately amiss. Catalina has always had a flair for the dramatic, but her claims that her husband is poisoning her and her visions of restless ghosts seem remarkable, even for her. Tough and smart, she possesses an indomitable will, and she is not afraid: not of her cousin's new husband, who is both menacing and alluring; not of his father, the ancient patriarch who seems to be fascinated by Noemí; and not of the house itself, which begins to invade Noemi's dreams with visions of blood and doom. Her only ally in this inhospitable abode is the family's youngest son. Shy and gentle, he seems to want to help, but might also be hiding dark knowledge of his family's past. For there are many secrets behind the walls of High Place. The family's once colossal wealth and faded mining empire kept them from prying eyes, but as Noemí digs deeper she unearths stories of violence and madness.",
+      "quotes": ["The world might indeed be a cursed circle; the snake swallowed its tail and there could be no end, only an eternal ruination and endless devouring.", "It was easy to kiss someone when it didn’t matter; it was more difficult when it might be meaningful.", "One could construct a hundred different narratives, it didn’t make them true."]
+    },
+    {
+      "id": 30,
+      "title": "Emma",
+      "author": "Jane Austen",
+      "published": "01/01/1815",
+      "edition": "Bantam Classics, 1984, paperback",
+      "pages": 422,
+      "genre": [
+        "fiction",
+        "classic", "romance"],
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388192272i/76691.jpg",
+      "blurb": "In a novel remarkable for its sparkling wit and modernity, Austen presents readers with two of literature's greatest comic creations--the eccentric Mr. Woodhouse and that quintessential bore, Miss Bates. Here, too, we have what may well be Jane Austen's most profound characterization: the witty, imaginative, self-deluded Emma, a heroine the author declared \"no one but myself will much like,\" but who has been much loved by generations of readers. Delightfully funny, full of rich irony, Emma is regarded as one of Jane Austen's finest achievements.",
+      "quotes": ["If I loved you less, I might be able to talk about it more.", "Silly things do cease to be silly if they are done by sensible people in an impudent way.", "You must be the best judge of your own happiness."]
+    },
+    {
+      "id": 31,
+      "title": "Wild: From Lost to Found on the Pacific Crest Trail",
+      "author": "Cheryl Strayed",
+      "published": "20/03/2012",
+      "edition": "Knopf, 2012, hardback",
+      "pages": 315,
+      "genre": [
+        "non-fiction",
+        "travel", "biography", "feminism"
+      ],
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1453189881i/12262741.jpg",
+      "blurb": "At twenty-two, Cheryl Strayed thought she had lost everything. In the wake of her mother’s death, her family scattered and her own marriage was soon destroyed. Four years later, with nothing more to lose, she made the most impulsive decision of her life. With no experience or training, driven only by blind will, she would hike more than a thousand miles of the Pacific Crest Trail from the Mojave Desert through California and Oregon to Washington State — and she would do it alone.\nTold with suspense and style, sparkling with warmth and humor, Wild powerfully captures the terrors and pleasures of one young woman forging ahead against all odds on a journey that maddened, strengthened, and ultimately healed her.",
+      "quotes": ["I knew that if I allowed fear to overtake me, my journey was doomed. Fear, to a great extent, is born of a story we tell ourselves, and so I chose to tell myself a different story from the one women are told.", "The universe, I'd learned, was never, ever kidding. It would take whatever it wanted and it would never give it back.", "Alone had always felt like an actual place to me, as if it weren’t a state of being, but rather a room where I could retreat to be who I really was."]
+    },
+    {
+      "id": 32,
+      "title": "The Martian",
+      "author": "Andy Weir",
+      "published": "27/09/2011",
+      "edition": "Crown, 2014, hardback",
+      "pages": 384,
+      "genre": [
+        "fiction",
+        "modern", "science"
+      ],
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1413706054i/18007564.jpg",
+      "blurb": "Six days ago, astronaut Mark Watney became one of the first people to walk on Mars. Now, he’s sure he’ll be the first person to die there. After a dust storm nearly kills him and forces his crew to evacuate while thinking him dead, Mark finds himself stranded and completely alone with no way to even signal Earth that he’s alive—and even if he could get word out, his supplies would be gone long before a rescue could arrive. Chances are, though, he won’t have time to starve to death. The damaged machinery, unforgiving environment, or plain-old “human error” are much more likely to kill him first. But Mark isn’t ready to give up yet. Drawing on his ingenuity, his engineering skills — and a relentless, dogged refusal to quit — he steadfastly confronts one seemingly insurmountable obstacle after the next. Will his resourcefulness be enough to overcome the impossible odds against him?",
+      "quotes": ["Yes, of course duct tape works in a near-vacuum. Duct tape works anywhere. Duct tape is magic and should be worshiped.", "As with most of life's problems, this one can be solved by a box of pure radiation.", "But really, they did it because every human being has a basic instinct to help each other out. It might not seem that way sometimes, but it’s true."]
+    },
+    {
+      "id": 33,
+      "title": "The Tale of Peter Rabbit",
+      "author": "Beatrix Potter",
+      "published": "16/12/1901",
+      "edition": "Warne, 2002, hardback",
+      "pages": 72,
+      "genre": [
+        "fiction",
+        "childrens", "fantasy", "classic"
+      ],
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1485118382i/19321.jpg",
+      "blurb": "Follow the story of naughty Peter Rabbit as he squeezes—predictably—under the gate into Mr. McGregor's garden and finds himself in all kinds of trouble! But how does Peter Rabbit get himself out of this tricky situation? Beatrix Potter's story about one mischievous but ultimately endearing little creature will tell us, accompanied by beautiful illustrations and timeless verses which have transcended generations.",
+      "quotes": ["Even the smallest one can change the world.", "Now run along, and don’t get into mischief.", "At last, Peter Rabbit made his way back to the cozy burrow where he lived with his family. He was a very tired rabbit indeed!"]
+    },
+    {
+      "id": 34,
+      "title": "A Room of One's Own",
+      "author": "Virginia Woolf",
+      "published": "24/10/1929",
+      "edition": "Harvest Books, 1989, paperback",
+      "pages": 114,
+      "genre": [
+        "non-fiction",
+        "feminism", "essay"
+      ],
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1442687308i/340793.jpg",
+      "blurb": "A Room of One's Own is an extended essay by Virginia Woolf. First published on the 24th of October, 1929, the essay was based on a series of lectures she delivered at Newnham College and Girton College, two women's colleges at Cambridge University in October 1928. While this extended essay in fact employs a fictional narrator and narrative to explore women both as writers and characters in fiction, the manuscript for the delivery of the series of lectures, titled Women and Fiction, and hence the essay, are considered nonfiction. The essay is seen as a feminist text, and is noted in its argument for both a literal and figural space for women writers within a literary tradition dominated by patriarchy.",
+      "quotes": ["I would venture to guess that Anon, who wrote so many poems without signing them, was often a woman.", "Lock up your libraries if you like; but there is no gate, no lock, no bolt that you can set upon the freedom of my mind.", "A woman must have money and a room of her own if she is to write fiction."]
+    },
+    {
+      "id": 35,
+      "title": "The Song of Achilles",
+      "author": "Madeline Miller",
+      "published": "20/09/2011",
+      "edition": "Bloomsbury Publishing, 2011, hardback",
+      "pages": 352,
+      "genre": [
+        "fiction",
+        "history", "fantasy", "modern", "romance"
+      ],
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1331154660i/11250317.jpg",
+      "blurb": "Achilles, the best of all the Greeks, son of the cruel sea goddess Thetis and the legendary king Peleus, is strong, swift, and beautiful, irresistible to all who meet him. Patroclus is an awkward young prince, exiled from his homeland after an act of shocking violence. Brought together by chance, they forge an inseparable bond, despite risking the gods' wrath. They are trained by the centaur Chiron in the arts of war and medicine, but when word comes that Helen of Sparta has been kidnapped, all the heroes of Greece are called upon to lay siege to Troy in her name. Seduced by the promise of a glorious destiny, Achilles joins their cause, and torn between love and fear for his friend, Patroclus follows. Little do they know that the cruel Fates will test them both as never before and demand a terrible sacrifice.",
+      "quotes": ["I could recognize him by touch alone, by smell; I would know him blind, by the way his breaths came and his feet struck the earth. I would know him in death, at the end of the world.", "And perhaps it is the greater grief, after all, to be left on earth when another is gone.", "There are no bargains between lion and men. I will kill you and eat you raw."]
+    },
+    {
+      "id": 36,
+      "title": "Call Me By Your Name",
+      "author": "André Aciman",
+      "published": "23/01/2007",
+      "edition": "Picador, 2017, paperback",
+      "pages": 248,
+      "genre": [
+        "fiction",
+        "romance", "modern"
+      ],
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1515647362i/34930873.jpg",
+      "blurb": "Call Me by Your Name is the story of a sudden and powerful romance that blossoms between an adolescent boy and a summer guest at his parents' cliff-side mansion on the Italian Riviera. Unprepared for the consequences of their attraction, at first each feigns indifference. But during the restless summer weeks that follow, unrelenting buried currents of obsession and fear, fascination and desire, intensify their passion as they test the charged ground between them. What grows from the depths of their spirits is a romance of scarcely six weeks' duration and an experience that marks them for a lifetime. For what the two discover on the Riviera and during a sultry evening in Rome is the one thing both already fear they may never truly find again: total intimacy.",
+      "quotes": ["We rip out so much of ourselves to be cured of things faster than we should that we go bankrupt by the age of thirty and have less to offer each time we start with someone new. But to feel nothing so as not to feel anything - what a waste!", "We had the stars, you and I. And this is given once only.", "People who read are hiders. They hide who they are. People who hide don’t always like who they are."]
+    },
+    {
+      "id": 37,
+      "title": "The Shining",
+      "author": "Stephen King",
+      "published": "28/01/1977",
+      "edition": "Hodder, 2007, paperback",
+      "pages": 497,
+      "genre": [
+        "fiction",
+        "mystery", "classic", "fantasy"
+      ],
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1347532942i/897708.jpg",
+      "blurb": "This tale of a troubled man hired to care for a remote mountain resort over the winter, his loyal wife, and their uniquely gifted son slowly but steadily unfolds as secrets from the Overlook Hotel's past are revealed, and the hotel itself attempts to claim the very souls of the Torrence family. Adapted into a cinematic masterpiece of horror by legendary Stanley Kubrick -- featuring an unforgettable performance by a demonic Jack Nicholson --The Shining stands as a cultural icon of modern horror, a searing study of a family torn apart, and a nightmarish glimpse into the dark recesses of human weakness and dementia.",
+      "quotes": ["Wendy? Darling? Light, of my life. I'm not gonna hurt ya. I'm just going to bash your brains in.", "Sometimes human places, create inhuman monsters.", "Monsters are real. Ghosts are too. They live inside of us, and sometimes, they win."]
+    },
+    {
+      "id": 38,
+      "title": "I Am Malala: The Story of the Girl Who Stood Up for Education and Was Shot by the Taliban",
+      "author": "Malala Yousafzai",
+      "published": "01/11/2012",
+      "edition": "Little, Brown and Company, 2013, hardback",
+      "pages": 327,
+      "genre": [
+        "non-fiction",
+        "biography", "feminism"
+      ],
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1375414895i/17851885.jpg",
+      "blurb": "When the Taliban took control of the Swat Valley in Pakistan, one girl spoke out. Malala Yousafzai refused to be silenced and fought for her right to an education. On Tuesday, October 9, 2012, when she was fifteen, she almost paid the ultimate price. She was shot in the head at point-blank range while riding the bus home from school, and few expected her to survive. Instead, Malala's miraculous recovery has taken her on an extraordinary journey from a remote valley in northern Pakistan to the halls of the United Nations in New York. At sixteen, she has become a global symbol of peaceful protest and the youngest-ever Nobel Peace Prize laureate.",
+      "quotes": ["We realize the importance of our voices only when we are silenced.", "One child, one teacher, one book, one pen can change the world.", "Education is neither Eastern nor Western, it is human."]
+    },
+    {
+      "id": 39,
+      "title": "His Dark Materials: The Golden Compass",
+      "author": "Philip Pullman",
+      "published": "01/07/1995",
+      "edition": "Knopf Books, 1996, hardback",
+      "pages": 399,
+      "genre": [
+        "fiction",
+        "fantasy", "childrens"
+      ],
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1505766203i/119322.jpg",
+      "blurb": "Lyra is rushing to the cold, far North, where witch clans and armored bears rule. North, where the Gobblers take the children they steal--including her friend Roger. North, where her fearsome uncle Asriel is trying to build a bridge to a parallel world. Can one small girl make a difference in such great and terrible endeavors? This is Lyra: a savage, a schemer, a liar, and as fierce and true a champion as Roger or Asriel could want--but what Lyra doesn't know is that to help one of them will be to betray the other.",
+      "quotes": ["You cannot change what you are, only what you do.", "We are all subject to the fates. But we must act as if we are not, or die of despair.", "Human beings can't see anything without wanting to destroy it. That's original sin. And I'm going to destroy it. Death is going to die."]
+    },
+    {
+      "id": 40,
+      "title": "The Help",
+      "author": "Kathryn Stockett",
+      "published": "10/02/2009",
+      "edition": "Penguin Books, 2010, paperback",
+      "pages": 444,
+      "genre": [
+        "fiction",
+        "history", "modern"
+      ],
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1278457730i/7856358.jpg",
+      "blurb": "There's Aibileen, raising her seventeenth white child and nursing the hurt caused by her own son's tragic death; Minny, whose cooking is nearly as sassy as her tongue; and white Miss Skeeter, home from College, who wants to know why her beloved maid has disappeared. Skeeter, Aibileen and Minny. No one would believe they'd be friends; fewer still would tolerate it. But as each woman finds the courage to cross boundaries, they come to depend and rely upon one another. Each is in a search of a truth. And together they have an extraordinary story to tell...",
+      "quotes": ["All I'm saying is, kindness don't have no boundaries.", "Write about what disturbs you, particularly if it bothers no one else.", "I always thought insanity would be a dark, bitter feeling, but it is drenching and delicious if you really roll around in it."]
+    },
+    {
+      "id": 41,
+      "title": "The Year of Magical Thinking",
+      "author": "Joan Didion",
+      "published": "01/09/2005",
+      "edition": "Vintage, 2007, paperback",
+      "pages": 227,
+      "genre": [
+        "non-fiction",
+        "biography", "feminism"
+      ],
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327878638i/7815.jpg",
+      "blurb": "Several days before Christmas 2003, John Gregory Dunne and Joan Didion saw their only daughter, Quintana, fall ill with what seemed at first flu, then pneumonia, then complete septic shock. She was put into an induced coma and placed on life support. Days later–the night before New Year's Eve–the Dunnes were just sitting down to dinner after visiting the hospital when John Gregory Dunne suffered a massive and fatal coronary. In a second, this close, symbiotic partnership of forty years was over. Four weeks later, their daughter pulled through. Two months after that, arriving at LAX, she collapsed and underwent six hours of brain surgery at UCLA Medical Center to relieve a massive hematoma. This powerful book is Didion's attempt to make sense of the weeks and then months that cut loose any fixed idea I ever had about death, about illness... about marriage and children and memory... about the shallowness of sanity, about life itself.",
+      "quotes": ["Life changes in the instant. The ordinary instant.", "Grief is different. Grief has no distance. Grief comes in waves, paroxysms, sudden apprehensions that weaken the knees and blind the eyes and obliterate the dailiness of life.", "I wanted to get the tears out of the way so I could act sensibly."]
+    },
+    {
+      "id": 42,
+      "title": "Cat's Cradle",
+      "author": "Kurt Vonnegut Jr.",
+      "published": "01/01/1963",
+      "edition": "Penguin Classics, 2008, paperback",
+      "pages": 206,
+      "genre": [
+        "fiction",
+        "classic", "science"
+      ],
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1542309435i/2865440.jpg",
+      "blurb": "Dr Felix Hoenikker, one of the founding 'fathers' of the atomic bomb, has left a deadly legacy to the world. For he is the inventor of ice-nine, a lethal chemical capable of freezing the entire planet. Writer Jonah's search for its whereabouts leads to Hoenikker's three eccentric children, to an island republic in the Caribbean where the religion of Bokononism is practised, to love and to insanity. Told with deadpan humour and bitter irony, Kurt Vonnegut's cult tale of global destruction is a funny and frightening satire on the end of the world and the madness of mankind.",
+      "quotes": ["In the beginning, God created the earth, and he looked upon it in His cosmic loneliness.", "Science is magic that works.", "There is love enough in this world for everybody, if people will just look."]
+    },
+    {
+      "id": 43,
+      "title": "Kafka on the Shore",
+      "author": "Haruki Murakami",
+      "published": "01/01/2002",
+      "edition": "Vintage International, 2006, paperback",
+      "pages": 467,
+      "genre": [
+        "fiction",
+        "fantasy", "modern"
+      ],
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1429638085i/4929.jpg",
+      "blurb": "Kafka on the Shore is powered by two remarkable characters: a teenage boy, Kafka Tamura, who runs away from home either to escape a gruesome oedipal prophecy or to search for his long-missing mother and sister; and an aging simpleton called Nakata, who never recovered from a wartime affliction and now is drawn toward Kafka for reasons that, like the most basic activities of daily life, he cannot fathom. As their paths converge, and the reasons for that convergence become clear, Haruki Murakami enfolds readers in a world where cats talk, fish fall from the sky, and spirits slip out of their bodies to make love or commit murder. Kafka on the Shore displays one of the world's great storytellers at the peak of his powers.",
+      "quotes": ["Memories warm you up from the inside. But they also tear you apart.", "If you remember me, then I don't care if everyone else forgets.", "And once the storm is over, you won’t remember how you made it through, how you managed to survive. You won’t even be sure, whether the storm is really over. But one thing is certain. When you come out of the storm, you won’t be the same person who walked in. That’s what this storm’s all about."]
+    },
+    {
+      "id": 44,
+      "title": "Gone Girl",
+      "author": "Gillian Flynn",
+      "published": "14/05/2012",
+      "edition": "Broadway Books, 2014, paperback",
+      "pages": 415,
+      "genre": [
+        "fiction",
+        "mystery", "modern"
+      ],
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1554086139i/19288043.jpg",
+      "blurb": "Who are you? What have we done to each other? These are the questions Nick Dunne finds himself asking on the morning of his fifth wedding anniversary when his wife Amy suddenly disappears. The police suspect Nick. Amy's friends reveal that she was afraid of him, that she kept secrets from him. He swears it isn't true. A police examination of his computer shows strange searches. He says they weren't made by him. And then there are the persistent calls on his mobile phone. So what did happen to Nick's beautiful wife?",
+      "quotes": ["There’s something disturbing about recalling a warm memory and feeling utterly cold.", "Tampon commercial, detergent commercial, maxi pad commercial, windex commercial - you'd think all women do is clean and bleed.", "There's a difference between really loving someone and loving the idea of her."]
+    },
+    {
+      "id": 45,
+      "title": "Columbine",
+      "author": "Dave Cullen",
+      "published": "01/03/2009",
+      "edition": "Twelve, 2009, hardback",
+      "pages": 417,
+      "genre": [
+        "non-fiction",
+        "true-crime"
+      ],
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1442939134i/5632446.jpg",
+      "blurb": "What really happened April 20, 1999? The horror left an indelible stamp on the American psyche, but most of what we know is wrong. It wasn't about jocks, Goths, or the Trench Coat Mafia. Dave Cullen was one of the first reporters on scene, and spent ten years on this book-widely recognized as the definitive account. With a keen investigative eye and psychological acumen, he draws on mountains of evidence, insight from the world's leading forensic psychologists, and the killers' own words and drawings-several reproduced in a new appendix. Cullen paints raw portraits of two polar opposite killers. They contrast starkly with the flashes of resilience and redemption among the survivors.",
+      "quotes": ["You can't really teach a kid anything: you can only show him the way and motivate him to learn it himself.", "Psychopaths don't act like Hannibal Lecter or Norman Bates. They come off like Hugh Grant, in his most adorable role.", "I’m often asked what made me spend a decade on Columbine. It was that day and those kids. I didn’t see it as a book then, but I knew I’d be with these kids a long time. Eventually, two questions drove me. The second was why. Why drove me nuts. But the question that started and sustained me was what would became of those two thousand kids."]
+    },
+    {
+      "id": 46,
+      "title": "The Princess Bride",
+      "author": "William Goldman",
+      "published": "01/09/1973",
+      "edition": "Ballantine Books, 2003, paperback",
+      "pages": 456,
+      "genre": [
+        "fiction",
+        "romance", "fantasy", "classic"
+      ],
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327903636i/21787.jpg",
+      "blurb": "What happens when the most beautiful girl in the world marries the handsomest prince of all time and he turns out to be...well...a lot less than the man of her dreams? What's it about? Fencing. Fighting. True Love. Strong Hate. Harsh Revenge. A Few Giants. Lots of Bad Men. Lots of Good Men. Five or Six Beautiful Women. Beasties Monstrous and Gentle. Some Swell Escapes and Captures. Death, Lies, Truth, Miracles, and a Little Sex.",
+      "quotes": ["When I was your age, television was called books.", "Life isn't fair, it's just fairer than death, that's all.", "Her heart was a secret garden and the walls were very high."]
+    },
+    {
+      "id": 47,
+      "title": "The Kite Runner",
+      "author": "Khaled Hosseini",
+      "published": "01/01/2003",
+      "edition": "Riverhead Books, 2004, paperback",
+      "pages": 371,
+      "genre": [
+        "fiction",
+        "history", "modern"
+      ],
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1579036753i/77203.jpg",
+      "blurb": "1970s Afghanistan: Twelve-year-old Amir is desperate to win the local kite-fighting tournament and his loyal friend Hassan promises to help him. But neither of the boys can foresee what would happen to Hassan that afternoon, an event that is to shatter their lives. After the Russians invade and the family is forced to flee to America, Amir realises that one day he must return to an Afghanistan under Taliban rule to find the one thing that his new world cannot grant him: redemption.",
+      "quotes": ["It may be unfair, but what happens in a few days, sometimes even a single day, can change the course of a whole lifetime...", "And that's the thing about people who mean everything they say. They think everyone else does too.", "There are a lot of children in Afghanistan, but little childhood."]
+    },
+    {
+      "id": 48,
+      "title": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+      "author": "C. S. Lewis",
+      "published": "16/10/1950",
+      "edition": "Harper Collins, 2005, paperback",
+      "pages": 767,
+      "genre": [
+        "fiction",
+        "classic", "childrens", "fantasy"
+      ],
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1353029077i/100915.jpg",
+      "blurb": "Narnia… the land beyond the wardrobe door, a secret place frozen in eternal winter, a magical country waiting to be set free. Lucy is the first to find the secret of the wardrobe in the professor's mysterious old house. At first her brothers and sister don't believe her when she tells of her visit to the land of Narnia. But soon Edmund, then Peter and Susan step through the wardrobe themselves. In Narnia they find a country buried under the evil enchantment of the White Witch. When they meet the Lion Aslan, they realize they've been called to a great adventure and bravely join the battle to free Narnia from the Witch's sinister spell.",
+      "quotes": ["Once a king or queen of Narnia, always a king or queen of Narnia.", "If ever they remembered their life in this world it was as one remembers a dream.", "And so for a time it looked as if all the adventures were coming to an end; but that was not to be."]
+    },
+    {
+      "id": 49,
+      "title": "The Hunger Games",
+      "author": "Suzanne Collins",
+      "published": "14/09/2008",
+      "edition": "Scholastic Press, 2008, hardback",
+      "pages": 374,
+      "genre": [
+        "fiction",
+        "fantasy", "science", "modern"
+      ],
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1586722975i/2767052.jpg",
+      "blurb": "In the ruins of a place once known as North America lies the nation of Panem, a shining Capitol surrounded by twelve outlying districts. The Capitol is harsh and cruel and keeps the districts in line by forcing them all to send one boy and one girl between the ages of twelve and eighteen to participate in the annual Hunger Games, a fight to the death on live TV. Sixteen-year-old Katniss Everdeen, who lives alone with her mother and younger sister, regards it as a death sentence when she steps forward to take her sister's place in the Games. But Katniss has been close to dead before—and survival, for her, is second nature. Without really meaning to, she becomes a contender. But if she is to win, she will have to start making choices that weight survival against humanity and life against love.",
+      "quotes": ["You don’t forget the face of the person who was your last hope.", "Happy Hunger Games! And may the odds be ever in your favor.", "Destroying things is much easier than making them."]
+    },
+    {
+      "id": 50,
+      "title": "Letter to a Stranger: Essays to the Ones Who Haunt Us",
+      "author": "Colleen Kinder",
+      "published": "22/03/2022",
+      "edition": "Algonquin Books, 2022, paperback",
+      "pages": 336,
+      "genre": [
+        "non-fiction",
+        "travel", "essays"
+      ],
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1627246513i/56271461.jpg",
+      "blurb": "Sixty-five extraordinary writers grapple with this mystery: How can an ephemeral encounter with a stranger leave such an eternal mark? When Colleen Kinder put out a call for authors to write a letter to a stranger about an unforgettable encounter, she opened  the floodgates. The responses—intimate and addictive, all written in the second person—began pouring in. Moving and unforgettable, Letter to a Stranger is an irresistible read for the literary traveler and the perfect gift for anyone who is haunted by a person they met once and will remember forever.",
+      "quotes": ["If there is no justice in this world, try the next.", "We are born into a world of strangers. We spend our lives turning them into beloveds and ghosts: the ones we need, the ones we ache for, the ones we lose, the ones we brush up against and never really know, who stay with us anyway.", "But this is the power of memory: the person who owns it can morph it to her desire."]
+    }
+
 ]
 
