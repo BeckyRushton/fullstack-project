@@ -1,9 +1,16 @@
+@import "../../styles/variables.scss";
 .book-container {
-  border: 2px solid black;
+  border: 1px solid $dark-brown;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px $dark-brown;
+
   height: auto;
   width: 400px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: $main-font;
+  background-color: $colour-book;
+  color: $dark-green;
   padding: 20px;
+  margin: 10px;
 }
 .book-image {
   width: 50%;

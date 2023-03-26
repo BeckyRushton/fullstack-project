@@ -10,8 +10,9 @@ const FilterSection = ({ bookData, setBookData }) => {
   });
 
   return (
-    <div className="filter-genre">
-      Filter by:
+    <div className="filter-section">
+      <h2 className="filter-section__title">Filter by:</h2>
+
       <div className="fiction-genre">
         FICTION
         <div className="fiction-genre-options">

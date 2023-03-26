@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import Home from "./pages/Home/Home";
 import Book from "./pages/Book/Book";
 import AddBook from "./pages/AddBook/AddBook";
+import AllBooks from "./pages/AllBooks/AllBooks";
 
 function App() {
   const [showBooks, setShowBooks] = useState(false);
@@ -21,7 +22,7 @@ function App() {
 
   return (
     <Router>
-      <div className="App">
+      <div className="app">
         <Routes>
           <Route
             path="/"
@@ -29,6 +30,7 @@ function App() {
           ></Route>
           <Route path="/book" element={<Book />}></Route>
           <Route path="/addbook" element={<AddBook />}></Route>
+          <Route path="/allbooks" element={<AllBooks />}></Route>
         </Routes>
       </div>
     </Router>

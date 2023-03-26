@@ -1,8 +1,21 @@
+@import "../../styles/variables";
+.filter-section {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  font-family: $main-font;
+  font-size: 1.5rem;
+  padding: 10px;
+
+  &__title {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+  }
+}
 .filter-genre {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  padding: 10px;
 }
 
 .fiction-genre,
@@ -12,32 +25,36 @@
   justify-content: flex-start;
   align-items: flex-start;
   padding: 10px;
+  font-weight: bold;
 }
 
 .fiction-genre-options,
 .non-fiction-genre-options {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   flex-wrap: wrap;
   gap: 10px;
+  font-weight: normal;
+  font-size: 1.3rem;
+  color: $colour-white;
 }
 
 .fiction-genre-options__labels,
 .non-fiction-genre-options__labels {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: flex-start;
 }
 .fiction-genre-options__checks,
 .non-fiction-genre-options__checks {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   align-items: flex-start;
   padding-top: 5px;
-  gap: 2px;
+  gap: 15px;
   height: 100%;
 }

@@ -1,9 +1,13 @@
 // Colour palette
-$background-colour: white;
-$accent-colour: teal;
-$second-accent-colour: pink;
+$colour-white: rgb(255, 255, 255);
+$dark-brown: rgb(63, 27, 10);
+$mid-brown: rgb(134, 92, 44);
+$light-brown: rgb(201, 169, 101);
+$colour-book: rgb(255, 254, 245);
+$colour-cream: rgb(248, 245, 217);
+$dark-green: rgb(9, 49, 27);
 
 // Typography
-@import url("https://fonts.googleapis.com/css2?family=Michroma&family=Roboto:ital,wght@0,400;1,100&display=swap");
-$main-font: "Roboto", Helvetica, sans-serif;
-$accent-font: "Michroma", Courier, monospace;
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&family=Roboto+Slab:wght@200&display=swap");
+$main-font: "Roboto Slab", serif;
+$accent-font: "Parisienne", serif;

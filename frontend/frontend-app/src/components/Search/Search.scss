@@ -1,0 +1,10 @@
+@import "../../styles/variables.scss";
+#searchbar {
+  width: 250px;
+  height: 50px;
+  padding: 10px;
+  font-size: 1.2rem;
+  font-family: $main-font;
+  color: $dark-brown;
+  border-radius: 10px;
+}

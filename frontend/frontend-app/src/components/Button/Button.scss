@@ -2,20 +2,19 @@
 
 .button-style {
   cursor: pointer;
-  border: 3px solid black;
+  border: 1px solid black;
   border-radius: 10px;
   width: fit-content;
   padding: 10px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1.3rem;
-  margin: 20px;
-  background-color: pink;
-  color: white;
-  box-shadow: 2px 2px 2px blue;
+  margin: 10px;
+  font-family: $main-font;
+  font-size: 1.2rem;
+  background-color: $dark-brown;
+  color: $colour-white;
+  box-shadow: 2px 2px 5px $light-brown;
 }
 .button-style:hover {
-  background-color: blue;
-  border: 3px solid darkblue;
-  box-shadow: 2px 2px 2px pink;
+  background-color: $light-brown;
+  box-shadow: 2px 2px 5px $dark-brown;
   transition: 400ms;
 }
