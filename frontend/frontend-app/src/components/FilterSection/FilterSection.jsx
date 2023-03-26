@@ -81,12 +81,7 @@ const FilterSection = ({ bookData, setBookData, handleSearchGenres }) => {
               type="checkbox"
               className="non-fiction-genre__biography"
             />
-            <input
-              genre="essays"
-              onClick={handleSearchGenres}
-              type="checkbox"
-              className="non-fiction-genre__essays"
-            />
+
             <input
               genre="feminism"
               onClick={handleSearchGenres}
@@ -114,7 +109,6 @@ const FilterSection = ({ bookData, setBookData, handleSearchGenres }) => {
           </div>
           <div className="non-fiction-genre-options__labels">
             <label htmlFor="non-fiction-genre__biography">Biography</label>
-            <label htmlFor="non-fiction-genre__essays">Essays</label>
             <label htmlFor="non-fiction-genre__feminism">Feminism</label>
             <label htmlFor="non-fiction-genre__self-help">Self-help</label>
             <label htmlFor="non-fiction-genre__true-crime">True-crime</label>
