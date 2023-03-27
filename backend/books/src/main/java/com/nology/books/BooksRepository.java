@@ -12,7 +12,26 @@ public class BooksRepository {
         bookDB.add(book);
     }
 
+    public Book getBookById(Long id) {
+        for (Book book : bookDB) {
+            if (book.getId() == id) {
+                return book;
+            }
+        }
+        return null;
+    }
+
     public ArrayList<Book> getAllBooks() {
         return bookDB;
+    }
+
+    public boolean hasId(long id) {
+        for (Book book : bookDB) {
+            if (book.getId() == id) {
+                return true;
+            }
+
+        }
+        return false;
     }
 }

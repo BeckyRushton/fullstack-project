@@ -60,6 +60,8 @@ function App() {
     setSearchTerm(event.target.value.toLowerCase());
   };
 
+  const handleClick = (event) => {};
+
   return (
     <Router>
       <div className="app">

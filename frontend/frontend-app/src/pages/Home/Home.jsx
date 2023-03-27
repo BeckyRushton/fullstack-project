@@ -10,7 +10,6 @@ const Home = ({ bookData, setBookData, handleSearch, handleSearchGenres }) => {
       <PageHeader bookData={bookData} handleSearch={handleSearch} />
       <div className="homepage-body">
         <div className="homepage-body__nav">
-          {" "}
           <NavContainer
             bookData={bookData}
             setBookData={setBookData}

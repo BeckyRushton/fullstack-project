@@ -1,4 +1,6 @@
 import React from "react";
+import Button from "../Button/Button";
+import { Link } from "react-router-dom";
 import "./BookCard.scss";
 
 const BookCard = ({ book }) => {
@@ -31,6 +33,14 @@ const BookCard = ({ book }) => {
           <p className="book-stats__bottom--edition">Edition: {book.edition}</p>
           <p className="book-stats__bottom--pages">Pages: {book.pages}</p>
           <p className="book-stats__bottom--genre">Genre: {bookGenres}</p>
+          <Link
+            to={"/book/{title}"}
+            className="book-stats__bottom--button"
+            style={{ color: "inherit", textDecoration: "inherit" }}
+          >
+            <Button buttonText={"Find out more..."} />
+          </Link>
+
           <p className="book-stats__bottom--blurb">Blurb: {book.blurb}</p>
           <div className="book-stats__bottom--quotes">Quotes: {bookQuotes}</div>
         </div>

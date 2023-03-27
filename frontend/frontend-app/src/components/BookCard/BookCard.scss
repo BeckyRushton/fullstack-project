@@ -12,11 +12,14 @@
   padding: 10px;
   margin: 30px 10px;
   overflow: hidden;
+  display: flex;
+  align-items: center;
 }
 .book-stats {
   padding: 10px;
   display: flex;
   flex-direction: column;
+
   gap: 20px;
   &__top {
     display: flex;
@@ -31,11 +34,23 @@
     display: flex;
     flex-direction: column;
     gap: 5px;
-    &--blurb {
-      overflow: hidden;
-    }
-    &--quotes {
+    &--blurb,
+    &--quotes,
+    &--edition,
+    &--pages {
       display: none;
+    }
+
+    &--title,
+    &--author,
+    &--published,
+    &--genre {
+      display: flex;
+      padding-left: 30px;
+    }
+    &--button {
+      display: flex;
+      justify-content: center;
     }
   }
 }
