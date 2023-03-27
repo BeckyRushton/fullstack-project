@@ -7,13 +7,14 @@ import "./Home.scss";
 const Home = ({ bookData, setBookData, handleSearch, handleSearchGenres }) => {
   return (
     <div className="homepage">
-      <PageHeader bookData={bookData} handleSearch={handleSearch} />
+      <PageHeader bookData={bookData} />
       <div className="homepage-body">
         <div className="homepage-body__nav">
           <NavContainer
             bookData={bookData}
             setBookData={setBookData}
             handleSearchGenres={handleSearchGenres}
+            handleSearch={handleSearch}
           />
         </div>
         <div className="homepage-body__home">

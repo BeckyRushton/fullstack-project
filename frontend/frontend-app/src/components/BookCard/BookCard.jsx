@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 import "./BookCard.scss";
 
 const BookCard = ({ book }) => {
-  const bookQuotes = book.quotes.map((quote) => {
-    return <p>"{quote}"</p>;
+  const bookQuotes = book.quotes.map((quote, index) => {
+    return <p key={index}>"{quote}"</p>;
   });
 
   const bookGenres = book.genre

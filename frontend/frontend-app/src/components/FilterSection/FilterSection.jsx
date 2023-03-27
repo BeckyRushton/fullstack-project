@@ -1,11 +1,9 @@
 import React from "react";
 import "./FilterSection.scss";
 
-const FilterSection = ({ bookData, setBookData, handleSearchGenres }) => {
+const FilterSection = ({ handleSearchGenres }) => {
   return (
     <div className="filter-section">
-      <h2 className="filter-section__title">Filter by:</h2>
-
       <div className="fiction-genre">
         FICTION
         <div className="fiction-genre-options">

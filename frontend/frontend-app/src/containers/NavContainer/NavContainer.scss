@@ -1,5 +1,10 @@
 @import "../../styles/variables";
 .nav {
   background-color: $mid-brown;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   height: 100%;
+  padding-top: 20px;
 }

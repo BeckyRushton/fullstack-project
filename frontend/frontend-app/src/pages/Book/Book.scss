@@ -1,0 +1,60 @@
+@import "../../styles/variables";
+.book-info {
+  &__body {
+    background-color: $light-brown;
+    font-family: $main-font;
+    color: $dark-brown;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 2fr;
+    grid-template-areas:
+      "image stats stats"
+      "image stats stats"
+      "quotes quotes quotes"
+      "quotes quotes quotes";
+  }
+  &__stats {
+    grid-area: stats;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  &__quotes {
+    grid-area: quotes;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: $colour-book;
+    padding: 50px;
+    border-radius: 30px;
+    margin-top: 50px;
+    &--title {
+      font-size: 1.6rem;
+      font-weight: bolder;
+      padding-bottom: 40px;
+    }
+    &--quote1,
+    &--quote2,
+    &--quote3 {
+      font-family: $accent-font;
+      font-size: 3.5rem;
+      color: $dark-brown;
+    }
+  }
+  &__image {
+    grid-area: image;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    &--image {
+      width: 80%;
+      box-shadow: 2px 2px 5px $dark-brown;
+    }
+  }
+}

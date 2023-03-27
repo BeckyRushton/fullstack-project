@@ -19,7 +19,6 @@
   padding: 10px;
   display: flex;
   flex-direction: column;
-
   gap: 20px;
   &__top {
     display: flex;
@@ -49,6 +48,9 @@
       padding-left: 30px;
     }
     &--button {
+      margin-left: 60px;
+      margin-top: 20px;
+      width: fit-content;
       display: flex;
       justify-content: center;
     }
