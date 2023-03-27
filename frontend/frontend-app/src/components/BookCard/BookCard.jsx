@@ -34,7 +34,7 @@ const BookCard = ({ book }) => {
           <p className="book-stats__bottom--pages">Pages: {book.pages}</p>
           <p className="book-stats__bottom--genre">Genre: {bookGenres}</p>
           <Link
-            to={"/book/{title}"}
+            to={`/book/${book.title}`}
             className="book-stats__bottom--button"
             style={{ color: "inherit", textDecoration: "inherit" }}
           >

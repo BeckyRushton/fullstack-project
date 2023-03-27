@@ -21,7 +21,7 @@ function App() {
         book.title.toLowerCase().includes(searchTerm) ||
         book.author.toLowerCase().includes(searchTerm)
       ) {
-        if (searchGenres.length == 0) {
+        if (searchGenres.length === 0) {
           return true;
         }
 
@@ -60,8 +60,6 @@ function App() {
     setSearchTerm(event.target.value.toLowerCase());
   };
 
-  const handleClick = (event) => {};
-
   return (
     <Router>
       <div className="app">
@@ -77,7 +75,10 @@ function App() {
               />
             }
           ></Route>
-          <Route path="/book" element={<Book bookData={bookData} />}></Route>
+          <Route
+            path={`/book/:title`}
+            element={<Book bookData={bookData} />}
+          ></Route>
           <Route path="/addbook" element={<AddBook />}></Route>
           <Route
             path="/allbooks"

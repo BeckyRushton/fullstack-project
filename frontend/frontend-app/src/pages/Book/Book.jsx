@@ -3,7 +3,7 @@ import React from "react";
 import "./Book.scss";
 import Button from "../../components/Button/Button";
 
-const Book = (bookData) => {
+const Book = ({ bookData }) => {
   const { title } = useParams();
   const targetArr = bookData.filter((book) => {
     if (book.title === title) {
