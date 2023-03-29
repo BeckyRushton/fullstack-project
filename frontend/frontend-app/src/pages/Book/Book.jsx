@@ -3,6 +3,7 @@ import React from "react";
 import "./Book.scss";
 import PageHeader from "../../components/PageHeader/PageHeader";
 import Carousel from "react-elastic-carousel";
+import Footer from "../../components/Footer/Footer";
 
 const Book = ({ bookData }) => {
   const { title } = useParams();
@@ -61,6 +62,7 @@ const Book = ({ bookData }) => {
           </Carousel>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

@@ -1,7 +1,7 @@
 import React from "react";
 import BookCard from "../../components/BookCard/BookCard";
 import "./HomepageContainer.scss";
-import Bookshelf from "../../assets/Images/books-shelf.png";
+import Bookshelf from "../../assets/Images/books-shelves.png";
 
 const HomepageContainer = ({ bookData }) => {
   const populateBooks = bookData.map((book, index) => {

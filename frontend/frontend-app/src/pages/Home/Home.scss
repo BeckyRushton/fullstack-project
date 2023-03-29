@@ -1,17 +1,33 @@
-.homepage {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-.homepage-body {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-
-  &__nav {
-    width: 20%;
+@media screen and (min-width: 375px) {
+  .homepage {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
-  &__home {
-    width: 80%;
+  .homepage-body {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    &__nav {
+      display: none;
+    }
+    &__home {
+      width: 100%;
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+  .homepage-body {
+    &__nav {
+      display: flex;
+      width: 30%;
+    }
+    &__home {
+      width: 70%;
+    }
+  }
+  .footer-section {
+    display: none;
   }
 }

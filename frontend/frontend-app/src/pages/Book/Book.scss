@@ -1,70 +1,127 @@
 @import "../../styles/variables";
-.book-info {
-  &__title {
-    background-color: $light-brown;
-    font-family: $accent-font;
-    font-size: 5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 30px;
-  }
-  &__body {
-    background-color: $light-brown;
-    font-family: $main-font;
-    color: $dark-brown;
-    font-size: 1.2rem;
-    font-weight: bold;
-    padding: 50px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 2fr;
-    grid-template-areas:
-      "image stats stats"
-      "image stats stats"
-      "quotes quotes quotes"
-      "quotes quotes quotes";
-  }
-  &__stats {
-    grid-area: stats;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 10px;
-  }
-  &__quotes {
-    grid-area: quotes;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: $colour-book;
-    padding: 50px;
-    border-radius: 30px;
-    margin-top: 50px;
-    &--title {
-      font-size: 1.6rem;
-      font-weight: bolder;
-      padding-bottom: 40px;
-    }
-    &--quote1,
-    &--quote2,
-    &--quote3 {
+@media screen and (min-width: 375px) {
+  .book-info {
+    &__title {
+      background-color: $light-brown;
       font-family: $accent-font;
-      font-size: 3.5rem;
-      text-align: center;
+      font-size: 3rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 20px;
+    }
+
+    &__body {
+      background-color: $light-brown;
+      font-family: $main-font;
       color: $dark-brown;
+      font-size: 0.9rem;
+      font-weight: bold;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    &__image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      &--image {
+        width: 60%;
+        box-shadow: 2px 2px 5px $dark-brown;
+      }
+    }
+
+    &__quotes {
+      background-color: $colour-book;
+      padding: 10px;
+      border-radius: 10px;
+
+      &--title {
+        font-size: 1rem;
+        font-weight: bold;
+        padding-bottom: 10px;
+        text-align: center;
+      }
+      &--quote1,
+      &--quote2,
+      &--quote3 {
+        font-family: $accent-font;
+        font-size: 1.3rem;
+        text-align: center;
+        color: $dark-brown;
+      }
     }
   }
-  &__image {
-    grid-area: image;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    &--image {
-      width: 80%;
-      box-shadow: 2px 2px 5px $dark-brown;
+  @media screen and (min-width: 768px) {
+    .book-info {
+      &__title {
+        font-size: 5rem;
+        padding-top: 50px;
+      }
+      &__body {
+        background-color: $light-brown;
+        font-family: $main-font;
+        color: $dark-brown;
+        font-size: 1.2rem;
+        font-weight: bold;
+        padding: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1.5fr;
+        grid-template-areas:
+          "image stats stats"
+          "image stats stats"
+          "quotes quotes quotes"
+          "quotes quotes quotes";
+      }
+      &__stats {
+        grid-area: stats;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+      }
+      &__quotes {
+        grid-area: quotes;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: $colour-book;
+        padding: 30px;
+        border-radius: 30px;
+        margin-top: 40px;
+        &--title {
+          font-size: 1.6rem;
+          font-weight: bold;
+          padding-bottom: 20px;
+        }
+        &--quote1,
+        &--quote2,
+        &--quote3 {
+          font-family: $accent-font;
+          font-size: 3.5rem;
+          text-align: center;
+          color: $dark-brown;
+        }
+      }
+      &__image {
+        grid-area: image;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        &--image {
+          width: 75%;
+          box-shadow: 2px 2px 5px $dark-brown;
+        }
+      }
     }
+  }
+  .footer-section {
+    display: none;
   }
 }

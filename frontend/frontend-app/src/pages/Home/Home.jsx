@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../../components/Footer/Footer";
 import PageHeader from "../../components/PageHeader/PageHeader";
 import HomepageContainer from "../../containers/HomepageContainer/HomepageContainer";
 import NavContainer from "../../containers/NavContainer/NavContainer";
@@ -21,6 +22,7 @@ const Home = ({ bookData, setBookData, handleSearch, handleSearchGenres }) => {
           <HomepageContainer bookData={bookData} />
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
