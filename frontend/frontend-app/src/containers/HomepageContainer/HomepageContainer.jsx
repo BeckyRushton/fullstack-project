@@ -1,7 +1,8 @@
 import React from "react";
 import BookCard from "../../components/BookCard/BookCard";
 import "./HomepageContainer.scss";
-import ShelfOfBooks from "../../assets/Images/books-shelf.png";
+import Bookshelf from "../../assets/Images/books-shelf.png";
+import Carousel from "react-elastic-carousel";
 
 const HomepageContainer = ({ bookData }) => {
   const populateBooks = bookData.map((book, index) => {
@@ -10,12 +11,17 @@ const HomepageContainer = ({ bookData }) => {
         <div className="book-shelves__top">
           <img
             className="book-shelves__top--image"
-            src={ShelfOfBooks}
+            src={Bookshelf}
             alt="shelfOfBooks"
           />
         </div>
 
         <div className="book-shelves__middle">
+          <Carousel>
+            <p>One</p>
+            <p>Two</p>
+            <p>Three</p>
+          </Carousel>
           <div key={index}>
             <BookCard book={book} />
           </div>
@@ -23,7 +29,7 @@ const HomepageContainer = ({ bookData }) => {
 
         <div className="book-shelves__bottom">
           <img
-            src={ShelfOfBooks}
+            src={Bookshelf}
             className="book-shelves__bottom--image"
             alt="shelfOfBooks"
           />

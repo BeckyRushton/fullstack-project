@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import React from "react";
 import "./Book.scss";
 import PageHeader from "../../components/PageHeader/PageHeader";
+import Carousel from "react-elastic-carousel";
 
 const Book = ({ bookData }) => {
   const { title } = useParams();
@@ -16,6 +17,7 @@ const Book = ({ bookData }) => {
   return (
     <div className="book-info">
       <PageHeader />
+      <h1 className="book-info__title">{targetObj.title}</h1>
       <div className="book-info__body">
         <div className="book-info__stats">
           <div className="book-info__stats--title">
@@ -46,16 +48,17 @@ const Book = ({ bookData }) => {
           <div className="book-info__quotes--title">
             Quotes from {targetObj.title}:
           </div>
-
-          <div className="book-info__quotes--quote1">
-            "{targetObj.quotes[0]}"
-          </div>
-          <div className="book-info__quotes--quote2">
-            "{targetObj.quotes[1]}"
-          </div>
-          <div className="book-info__quotes--quote3">
-            "{targetObj.quotes[2]}"
-          </div>
+          <Carousel>
+            <div className="book-info__quotes--quote1">
+              "{targetObj.quotes[0]}"
+            </div>
+            <div className="book-info__quotes--quote2">
+              "{targetObj.quotes[1]}"
+            </div>
+            <div className="book-info__quotes--quote3">
+              "{targetObj.quotes[2]}"
+            </div>
+          </Carousel>
         </div>
       </div>
     </div>
