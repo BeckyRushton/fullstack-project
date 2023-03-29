@@ -7,3 +7,26 @@
   background-color: $light-brown;
   width: 100%;
 }
+.book-shelves {
+  background-color: $dark-brown;
+  width: 80%;
+  margin: 10px;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &__top,
+  &__bottom {
+    background-color: $darkest-brown;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &--image {
+      width: 80%;
+    }
+  }
+}
