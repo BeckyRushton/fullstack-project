@@ -37,14 +37,14 @@
     &--blurb,
     &--quotes,
     &--edition,
-    &--pages {
+    &--pages,
+    &--genre {
       display: none;
     }
 
     &--title,
     &--author,
-    &--published,
-    &--genre {
+    &--published {
       display: flex;
     }
     &--button {
