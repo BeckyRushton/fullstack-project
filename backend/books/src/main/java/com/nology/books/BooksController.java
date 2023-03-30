@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
+import java.util.Optional;
 
 @RestController
 public class BooksController {
@@ -29,7 +30,7 @@ public class BooksController {
         return book;
     }
     @GetMapping("/books/{id}")
-    public ArrayList<Book> getBookById(@PathVariable long id) {
+    public Optional<Book> getBookById(@PathVariable long id) {
         return booksService.getBookById(id);
     }
 }

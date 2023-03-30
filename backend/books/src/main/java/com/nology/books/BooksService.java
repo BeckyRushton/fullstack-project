@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Service
@@ -12,15 +13,15 @@ public class BooksService {
     BooksRepository booksRepository;
 
 public void addBook(Book book) {
-    booksRepository.addBook(book);
+    booksRepository.save(book);
 }
-   public ArrayList<Book> getBookById(long id){
-    if(!booksRepository.hasId(id)) {
+   public Optional<Book> getBookById(Long id){
+    if(!booksRepository.existsById(id)) {
         throw new BookNotFoundException();
-    } return booksRepository.getAllBooks();
+    } return booksRepository.findById(id);
    }
 
     public ArrayList<Book> getAllBooks() {
-    return (ArrayList<Book>) booksRepository.getAllBooks().stream().collect(Collectors.toList());
+    return (ArrayList<Book>) booksRepository.findAll().stream().collect(Collectors.toList());
     }
 }

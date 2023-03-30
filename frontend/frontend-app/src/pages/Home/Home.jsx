@@ -22,7 +22,9 @@ const Home = ({ bookData, setBookData, handleSearch, handleSearchGenres }) => {
           <HomepageContainer bookData={bookData} />
         </div>
       </div>
-      <Footer />
+      <div className="footer-section">
+        <Footer />
+      </div>
     </div>
   );
 };

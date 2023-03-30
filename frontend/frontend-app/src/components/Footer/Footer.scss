@@ -1,5 +1,14 @@
 @import "../../styles/variables.scss";
-.footer-section {
-  background-color: $colour-cream;
-  padding: 20px;
+@media screen and (min-width: 375px) {
+  .footer-section {
+    background-color: $colour-cream;
+    padding: 20px;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer-section {
+    display: none;
+  }
 }
