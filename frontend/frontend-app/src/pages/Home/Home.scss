@@ -7,6 +7,9 @@
   .homepage-body {
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0;
     width: 100%;
 
     &__nav {
@@ -21,10 +24,10 @@
   .homepage-body {
     &__nav {
       display: flex;
-      width: 30%;
+      width: 25%;
     }
     &__home {
-      width: 70%;
+      width: 75%;
     }
   }
 }

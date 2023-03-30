@@ -13,7 +13,7 @@ const HomepageContainer = ({ bookData }) => {
   });
 
   return (
-    <div className="homepage">
+    <div className="homepage-container">
       <div className="book-shelves">
         <div className="book-shelves__top">
           <img
