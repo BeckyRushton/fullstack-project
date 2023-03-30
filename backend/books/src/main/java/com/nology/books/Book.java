@@ -1,9 +1,6 @@
 package com.nology.books;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.util.ArrayList;
 @Entity
 
@@ -16,8 +13,10 @@ public class Book {
     private String published;
     private String edition;
     private long pages;
+
     private ArrayList<String> genre;
     private String image;
+
     private ArrayList<String> quotes;
     private String blurb;
 
