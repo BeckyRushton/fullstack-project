@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import React, { useEffect, useState } from "react";
 import Home from "./pages/Home/Home";
 import Book from "./pages/Book/Book";
-import AddBook from "./pages/AddBook/AddBook";
 import AllBooks from "./pages/AllBooks/AllBooks";
 
 function App() {
@@ -79,7 +78,6 @@ function App() {
             path={`/book/:title`}
             element={<Book bookData={bookData} />}
           ></Route>
-          <Route path="/addbook" element={<AddBook />}></Route>
           <Route
             path="/allbooks"
             element={
