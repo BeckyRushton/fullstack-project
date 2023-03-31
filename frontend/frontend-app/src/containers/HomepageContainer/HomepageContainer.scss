@@ -9,7 +9,7 @@
 }
 .book-shelves {
   background-color: $dark-brown;
-  width: 90%;
+  width: 80%;
   margin: 30px;
   border-radius: 20px;
   padding: 20px;
@@ -34,7 +34,7 @@
     margin: 10px;
     border-radius: 20px;
     height: 450px;
-    width: 60vw;
+    width: 97%;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -44,7 +44,7 @@
 }
 
 .book-shelves__middle::-webkit-scrollbar {
-  width: 12px;
+  width: 10px;
 }
 
 .book-shelves__middle::-webkit-scrollbar-track {
