@@ -8,7 +8,7 @@
   font-family: $main-font;
   font-weight: bold;
   background-color: $colour-book;
-  color: $dark-green;
+  color: $dark-brown;
   padding: 20px;
   margin: 10px 10px;
   overflow: hidden;
@@ -25,7 +25,7 @@
     align-items: center;
     &--image {
       width: 50%;
-      box-shadow: 2px 2px 5px $dark-green;
+      box-shadow: 2px 2px 5px $dark-brown;
     }
   }
   &__bottom {

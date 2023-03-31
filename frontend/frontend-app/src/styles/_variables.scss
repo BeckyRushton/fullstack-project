@@ -6,9 +6,8 @@ $mid-brown: rgb(134, 92, 44);
 $light-brown: rgb(201, 169, 101);
 $colour-book: rgb(255, 254, 245);
 $colour-cream: rgb(248, 245, 217);
-$dark-green: rgb(9, 49, 27);
 
 // Typography
 @import url("https://fonts.googleapis.com/css2?family=Parisienne&family=Roboto+Slab:wght@200&display=swap");
-$main-font: "Roboto Slab", serif;
-$accent-font: "Parisienne", serif;
+$main-font: "Roboto Slab", "Times New Roman", serif;
+$accent-font: "Parisienne", "Georgia", serif;
