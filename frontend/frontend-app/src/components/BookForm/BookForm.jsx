@@ -34,7 +34,6 @@ const BookForm = ({ defaultFormState, handleSubmit, formTitle }) => {
           <label htmlFor="bookQuotes">Quotes:</label>
         </div>
         <div className="form-container__form--inputs">
-          {" "}
           <input
             className="form-container__input"
             id="bookTitle"
@@ -59,7 +58,7 @@ const BookForm = ({ defaultFormState, handleSubmit, formTitle }) => {
             className="form-container__input"
             id="bookPublished"
             type="text"
-            placeholder="provide the first published date..."
+            placeholder="provide the first published date in this format dd/mm/yyyy..."
             value={newBook.published}
             onInput={(event) =>
               setNewBook({ ...newBook, published: event.target.value })
@@ -127,10 +126,12 @@ const BookForm = ({ defaultFormState, handleSubmit, formTitle }) => {
             }}
           />
         </div>
+        <div className="form-container__button">
+          <button type="submit" className="form-container__button">
+            <Button buttonText={"Submit"} />
+          </button>
+        </div>
       </form>
-      <button type="submit" className="form-container__button">
-        <Button buttonText={"Submit"} />
-      </button>
     </div>
   );
 };
