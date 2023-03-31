@@ -16,6 +16,12 @@ const Menu = () => {
       >
         <Button buttonText={"See all books"} />
       </Link>
+      <Link
+        to={"/newbook"}
+        style={{ color: "inherit", textDecoration: "inherit" }}
+      >
+        <Button buttonText={"Add book"} />
+      </Link>
     </div>
   );
 };

@@ -1,0 +1,10 @@
+@import "../../styles/variables";
+
+.create-newBook {
+  width: 100%;
+  &__body {
+    background-color: $light-brown;
+    height: 100vh;
+    padding: 50px;
+  }
+}
