@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
-
+@CrossOrigin()
 @RestController
 public class BooksController {
 
@@ -18,7 +18,7 @@ public class BooksController {
         return exception.getMessage();
     }
 
-    @CrossOrigin(origins = "http://localhost:3000")
+
     @GetMapping("/books")
     public ArrayList<Book> getAllBooks() {
         return booksService.getAllBooks();
@@ -44,5 +44,11 @@ public class BooksController {
     @GetMapping("/books/{id}")
     public Optional<Book> getBookById(@PathVariable long id) {
         return booksService.getBookById(id);
+    }
+
+    @DeleteMapping("/book/{id}")
+    public String deleteBookById(@PathVariable long id) {
+        booksService.deleteBookById(id);
+        return "deleted book from database";
     }
 }

@@ -1,5 +1,10 @@
 @import "../../styles/variables";
-
+label {
+  font-family: $main-font;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: $dark-brown;
+}
 .form-container {
   display: flex;
   flex-direction: column;
@@ -8,6 +13,7 @@
   gap: 20px;
   &__title {
     font-family: $accent-font;
+    color: $dark-brown;
     font-size: 3rem;
     text-align: center;
   }
@@ -18,15 +24,28 @@
     border-radius: 20px;
     box-shadow: 5px 5px 10px $mid-brown;
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
     padding: 50px;
-    gap: 5px;
+    gap: 20px;
+
+    &--labels {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+    &--inputs {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      width: 100%;
+    }
   }
   &__button {
-    background-color: $colour-cream;
+    background-color: $light-brown;
     border: none;
+    margin-top: 30px;
   }
   &__input {
     font-family: $main-font;

@@ -6,7 +6,8 @@ import Footer from "../../components/Footer/Footer";
 
 const NewBook = () => {
   const handleSubmit = async (book) => {
-    const result = await fetch("http://localhost:8080/books", {
+    console.log(book);
+    const result = await fetch("http://localhost:8080/book", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

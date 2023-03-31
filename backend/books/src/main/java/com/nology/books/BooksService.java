@@ -24,4 +24,7 @@ public void addBook(Book book) {
     public ArrayList<Book> getAllBooks() {
     return (ArrayList<Book>) booksRepository.findAll().stream().collect(Collectors.toList());
     }
+    public void deleteBookById(Long id) {
+    booksRepository.deleteById(id);
+    }
 }
